@@ -9,7 +9,7 @@
 
 - Terraform parses all the files in the working directory with extention `.tf` or `.tf.json`, all other files with different extentions are ignored.
 
-- Overriding does not work in Terraform, each resource (for example AWS instance named "web") can be defind in only one of the `.tf` files. Overriding a resource from same type and with same name is going to result in an error.
+- Overriding does not work in Terraform, each resource (for example AWS instance named "web") can be defined in only one of the `.tf` files. Overriding a resource from same type and with same name is going to result in an error.
 
 - Which files are parsed by Terraform :
     ```shell
